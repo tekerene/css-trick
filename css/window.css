@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;523;600;700;800 &display=swap');
+
+
+    /* css variables */
+    :root{
+        --primaryWhite:#e8e9ea;
+        --secondaryWhite: #fdfdfd;
+        --primaryBlack: #000;
+        --fontDosis: 'Dosis', sans-serif;
+        --thickBlue: #066796;
+        --primaryBG:#fff;
+        --secondaryBG:#aaa391;
+        --tertiaryBG:#4ba1db; 
+        --lightGray: #666666;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: var(--fontDosis);
+    }
+    .banner-header {
+        width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: var(--primaryBG);
+    }
+    .banner-header .container {
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background: var(--secondaryWhite);
+    }
+    .banner-items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        top: 16%;
+        position: absolute;
+    }
+    .banner-enterprise {
+        width: 55%;
+        height: 351px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        bottom: 11%;
+        background: var(--thickBlue);
+        box-shadow: inset -3px -14px 0px 0px var(--primaryBlack);
+        border-radius: 10px 10px 20px 20px;
+        border: 13px solid var(--primaryBlack);
+    }
+    .banner-enterprise h2 {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--primaryWhite);
+        font-weight: 900;
+        font-size: 53px;
+        line-height: 68px;
+    }
+    .enter-bottom {
+        width: 65%;
+        height: 25px;
+        position: absolute;
+        /* background: rgb(199, 196, 196); */
+        background: var(--primaryWhite);
+        bottom: 8%;
+        border-radius: 0px 1px 24px 28px;
+        box-shadow: inset 0px 20px 10px;
+        border: 2px solid var(--primaryBlack);
+        border-bottom: 20px solid var(--primaryBlack);
+    }
+    img {
+        height: 100px;
+        width: 100px;
+        object-fit: fill;
+    }
+    .premium {
+        position: absolute;
+        top: 360%;
+        left: 10%;
+    }
+    .premium h5 {
+        left: 12%;
+        top: 111%;
+    }
+    .corperate-security {
+        position: absolute;
+        top: 200%;
+        left: 10%;
+    }
+    .corperate-security h5 {
+        left: -107%;
+        top: 34%;
+        text-align: right;
+    }
+    .cost-statement {
+        position: absolute;
+        top: 67%;
+        left: 11%;
+    }
+    .cost-statement h5 {
+        left: -85%;
+        top: -9%;
+        text-align: right;
+    }
+   
+    .audit {
+        position: absolute;
+        top: -20%;
+        left: 23%;
+    }
+    .audit h5 {
+        top: -31%;
+        left: -11%;
+    }
+    .sms-chat {
+        position: absolute;
+        top: 19%;
+        left: 36%;
+    } 
+    .sms-chat h5 {
+        top: -26%;
+    }
+    .custom {
+        margin-left: 6em;
+        margin-top: -23px;
+    }
+    .custom h5 {
+        top: -77%;
+    }
+    .pricing {
+        position: absolute;
+        top: 27%;
+        right: 27%;
+    }
+    .pricing h5 {
+        top: -52%;
+    }
+     .advanced {
+        position: absolute;
+        top: 43%;
+        right: 15%;
+    } 
+    .advanced h5 {
+        top: -43%;
+        right: -69%;
+    }
+    .sign-on {
+        position: absolute;
+        top: 200%;
+        right: 10%;
+    }
+    .sign-on h5 {
+        right: -71%;
+        top: 30%;
+    }
+    .team-management {
+        position: absolute;
+        top: 360%;
+        right: 10%;
+    }
+    .team-management h5 {
+        right: -8%;
+        text-align: center;
+        top: 108%;
+    }
+    h5 {
+        position: absolute;
+        text-transform: uppercase;
+        font-size: 15px !important;
+        font-weight: 900 !important;
+        color: var(--lightGray);
+    }
+    .hp {
+        position: absolute;
+        bottom: -10px;
+        color: var(--primaryWhite);
+    }
